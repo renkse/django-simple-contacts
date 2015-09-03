@@ -1,0 +1,7 @@
+dist
+django_simple_contacts.egg-info
+.idea
+*.pyc
+*~
+contacts/migrations
+
