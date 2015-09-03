@@ -23,12 +23,10 @@ Quick start
           'contacts',
       )
 
-3. Run `python manage.py syncdb` to create the menu models.
+3. Run `python manage.py syncdb` to create the contacts table.
 
 4. Start the development server and visit http://127.0.0.1:8000/admin/
    to create contacts (you'll need the Admin app enabled).
-
-5. You can use it in your context processors or views.
 
 Requirements
 ------------
