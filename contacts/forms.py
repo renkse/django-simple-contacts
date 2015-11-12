@@ -3,7 +3,7 @@ __author__ = 'renkse'
 from django import forms
 from models import FeedbackMessage
 from captcha.fields import CaptchaField
-from autotech.utils import rus_verification, phone_verification
+from devtools.validators import rus_verification, phone_verification
 
 
 class FeedbackForm(forms.ModelForm):
